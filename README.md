@@ -13,16 +13,16 @@ In case it's not clear:
 * Python (at least version 2.7)
 
 # Demonstration
-<code>
+If testfile was last modified in January 2015, and testdir was last modified in June 2014...
+
+```
 agileadam:~/transfer $ ls
 2013  2014  2015  testdir  testfile
-
-If testfile was last modified in January 2015, and testdir was last modified in June 2014...
 
 agileadam:~/transfer $ python2.7 ../bin/pyorgdir.py
 testfile --> /home/agileadam/transfer/2015/01/testfile
 testdir --> /home/agileadam/transfer/2014/06/testdir
-</code>
+```
 
 # Todo
 
